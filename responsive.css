@@ -1,0 +1,62 @@
+body, *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   background-color: greenyellow;
+}
+
+section{
+   width: 300px;
+   margin: 50px auto;
+   line-height: 2;
+   text-align: center;
+   color: white;
+   font-size: 1.2rem;
+   font-weight: 700;
+   background-color: blue;
+   border-radius: 10px;
+}
+
+
+@media (min-width: 800px){
+   body{
+      background-color: yellow;
+   }
+
+   section{
+      background-color: black;
+      color: white;
+   };
+}
+
+
+@media (min-width: 600px) and (max-width: 799px){
+  body{
+   background-color: red;
+  }
+
+  section{
+   background-color: purple;
+   color: red;
+  }
+}
+
+
+
+/* @media (max-width: 600px) {
+
+  body{
+   background-color: yellow;
+
+  }
+  
+  section{
+      background-color: brown;
+      color: white;
+  }
+} */
+
+
